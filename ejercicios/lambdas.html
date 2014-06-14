@@ -4,7 +4,21 @@
         <meta charset="UTF-8" />
         <title>Lambdas</title>
         <script>
+        var buenos_dias = function  () {
+              alert ("Buenos dias");
+               };
 
+            var buenas_noches = function(){
+                alert("buenas noches");
+            };
+            
+            function saludar(unaFuncion){
+                unaFuncion();
+            };
+            
+            saludar(buenos_dias);
+            saludar(buenas_noches);
+      
         </script>
     </head>
     <body>

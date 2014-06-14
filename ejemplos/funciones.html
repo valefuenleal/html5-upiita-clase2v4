@@ -3,15 +3,57 @@
         <title>JavaScript</title>
         <meta charset="UTF-8"/>
         <script>
-        
+
             //funcion
-            
+              return 0;
+            }
+            //Llamo a la funcion
+
+            var c = 0;
             //funcion anonima
+            var sumar = function  (a, b) {
+            	var c= a + b;
+            	return c;
+            };
             
+           var mutiplicar = fuction(a, b){
+           	var c = a + b
+           	return c;
+           }
+            var suma = suma(2, 5);
+            var multiplicacion = multiplicar (2, 5);
+            document.write("<h1>EL VALOR DE C es" + c);
+            document.write("<h2>SUMA " + suma + "</h2>");
+            document.write("<h2>MULTIPLICACION " + multiplicacion + "</h2>");
+       
             //una funcion como argumento
             //sepuede definir ahi mismo
+            // una funcion dentro de otra funcion se les llama closures 
+            var operacion = function (unaFuncion){
+            	unaFuncion(3,4);
+        alert("El resultaro es " + resultado);
+            };
+           
+operacion(multiplicar);
+operacion(function  (a, b) {
+	var c = a - b;
+	return c;
+  
+})
 
-        </script>
+//	closure
+(function  () {
+	var miClosure = function  () {
+		var funcion1 = function () {
+		};
+	  var c = 5;
+	  
+	  funcion1();
+	} )() ;
+	
+</script>
     </head>
-    <body></body>
+    <body>
+    	
+    </body>
 </html>
