@@ -1,0 +1,14 @@
+/************ Estilos globales ***************/
+@media screen{
+	
+}
+
+/*********** Estilos para Lap ****************/
+@media screen and (min-width: 800px){
+	
+}
+
+/********* Estilos para Moviles **************/
+@media screen and (max-width: 800px){
+	
+}
