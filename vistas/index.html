@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso HTML5</title>
+        <meta charset="UTF-8" />
+        <link href="imagenes/favicon.png" rel="shortcut icon"/>
+        <link href="css/normalize.css" rel="stylesheet"/>
+        <link href="css/global.css" rel="stylesheet"/>
+        <link href="css/movil.css" rel="stylesheet" media="screen and (max-width:800px)"/>
+        <link href="css/lap.css" rel="stylesheet" media="screen and (min-width:800px)"/>
+        <script src="javascript/jquery-1.10.2.min.js"></script>
+        <script src="javascript/galeria.js"></script>
+        <script src="javascript/redes_sociales.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="titulo">
+                <h1>Artesanos del Software</h1>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#">Canvas</a>
+                    </li>
+                    <li>
+                        <a href="#">Chat</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="#">Ubicación</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="bienvenida">
+            Porque programar es un arte
+        </section>
+        <section id="nuestros-servicios">
+            <div class="servicio">
+                <img src="imagenes/videojuegos.png"/>
+                <p>
+                    Videojuegos
+                </p>
+            </div>
+            <div class="servicio">
+                <img src="imagenes/ciencia.png"/>
+                <p>
+                    Ciencia
+                </p>
+            </div>
+            <div class="servicio">
+                <img src="imagenes/desarrollo.png"/>
+                <p>
+                    Desarrollo
+                </p>
+            </div>
+        </section>
+        <section id="conocenos">
+            <h2>Conócenos</h2>
+            <div id="doctor-mono">
+                <img src="imagenes/mono.jpg"/>
+                <p>
+                    Nuestro CEO (Dr. Mono)
+                </p>
+            </div>
+            <div id="video-bunsen">
+                <video controls="controls">
+                    <source src="videos/bunsen.mp4" type="video/mp4"/>
+                    <source src="videos/bunsen.webm" type="video/webm"/>
+                    <source src="videos/bunsen.ogv" type="video/ogg"/>
+                </video>
+                <p>
+                    Nuestra Historia
+                </p>
+            </div>
+        </section>
+        <footer>
+            <div id="siguenos">
+                <p>
+                    Síguenos
+                </p>
+                <div>
+                    <img src="imagenes/Facebook.png"/>
+                    <img src="imagenes/Twitter.png"/>
+                    <img src="imagenes/GooglePlus.png"/>
+                    <img src="imagenes/github.png"/>
+                </div>
+                <div id="contenedor-redes">
+                    <div id="imagenes-redes">
+                        <img src="imagenes/Facebook.png"/>
+                        <img src="imagenes/Twitter.png"/>
+                        <img src="imagenes/GooglePlus.png"/>
+                        <img src="imagenes/github.png"/>
+                    </div>
+                    <a id="cerrar" href="#">cerrar</a>
+                </div>
+            </div>
+            <div id="suscribete">
+                <p>
+                    Suscríbete
+                </p>
+                <label>Email:</label>
+                <input id="email" type="text">
+            </div>
+            <div id="powered">
+                <p>
+                    Powered by:
+                </p>
+                <ul>
+                    <li>
+                        <a href="http://www.w3.org/html/wg/drafts/html/master/"target="_blank">HTML5</a>
+                    </li>
+                    <li>
+                        <a href="http://jquery.com/" target="_blank">JQuey</a>
+                    </li>
+                    <li>
+                        <a href="http://nodejs.org/" target="_blank">Node.js</a>
+                    </li>
+                    <li>
+                        <a href="http://nodejs.org/"target="_blank">Nunjucks</a>
+                    </li>
+                    <li>
+                        <a href="http://nodejs.org/" target="_blank">OpenShift</a>
+                    </li>
+                    <li>
+                        <a href="http://git-scm.com/" target="_blank">Git</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

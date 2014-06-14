@@ -1,0 +1,122 @@
+header {
+	background-color: #3B2F63;
+}
+
+#titulo {
+	color: #FFFFFF;
+}
+
+#menu {
+	text-align: center;
+}
+
+#menu ul li a {
+	color: #c7c0de;
+	text-decoration: none;
+}
+
+#bienvenida {
+	background-image: url("../imagenes/portada.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+#nuestros-servicios, #galeria {
+	text-align: center;
+	padding: 3% 0% 3% 0%;
+	background-image: url("../imagenes/fondo.png");
+	background-attachment: fixed;
+}
+
+.servicio {
+	color: #1E1E1C;
+	font-size: 1.5em;
+}
+
+.servicio img, #doctor-mono img, video {
+	max-width: 100%;
+}
+
+#conocenos {
+	color: #3B2F63;
+	background-color: #c7c0de;
+	text-align: center;
+	font-size: 1.3em;
+	padding: 2%;
+}
+
+footer {
+	background-color: #3B2F63;
+	color: #c7c0de;
+	padding: 3%;
+	font-size: 1.2em;
+}
+
+#powered ul li a {
+	color: #c7c0de;
+}
+
+/**/
+img, video {
+	max-width: 100%;
+}
+/*sombras*/
+#titulo{
+	text-shadow: -3px 3px 0px rgba(140, 140, 140, 1);
+}
+/*galeria*/
+#galeria{
+	height: 750px;
+}
+#galeria h2 {
+	text-align: center;
+	color: #1E1E1C;
+	font-size: 3em;
+	margin-top: 0px;
+}
+
+#contenedor-imagen {
+	display: inline-block;
+	width: 40%;
+	position: relative;
+	border-radius: 1em;
+	border: solid 2px #C7C0DE;
+	background-color: #C7C0DE;
+	padding: 2%;
+}
+
+#contenedor-preview {
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+	margin-left: 10%;
+}
+
+#contenedor-preview img {
+	border-radius: 1em;
+	border: solid 2px #C7C0DE;
+	background-color: #C7C0DE;
+	padding: 5%;
+}
+
+#descripcion-imagen {
+	color: #FFFFFF;
+	padding: 4%;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #3B2F63;
+	opacity: 0.7;
+	margin: 0px 5% 5% 5%;
+}
+
+#email{
+	width: 60%;
+	}
+
+#email:focus{
+	width: 80%
+}

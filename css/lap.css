@@ -1,0 +1,84 @@
+#titulo {
+	display: inline-block;
+	width: 35%;
+	padding-left: 3em;
+	font-size: 0.8em;
+}
+
+#menu {
+	display: inline-block;
+	width: 55%;
+}
+
+#menu ul li {
+	display: inline-block;
+	width: 15%;
+}
+
+#bienvenida {
+	font-size: 2em;
+	line-height: 600px;
+	/*color: #33295B;*/
+	/*color:green;*/
+	color: #3B2F63;
+	text-shadow: -2px 2px 0px #C7C0DE;
+}
+
+.servicio {
+	display: inline-block;
+	width: 20%;
+	padding: 0% 5% 0% 5%;
+}
+
+#doctor-mono {
+	display: inline-block;
+	width: 45%;
+}
+
+#video-bunsen {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+
+#siguenos, #suscribete, #powered {
+	display: inline-block;
+	vertical-align: top;
+	height: 230px;
+}
+
+#siguenos, #suscribete {
+	width: 25%;
+}
+
+#powered {
+	width: 10%;
+}
+
+#suscribete {
+	border-left: solid 2px #C7C0DE;
+	border-right: solid 2px #C7C0DE;
+}
+
+#siguenos, #suscribete, #powered {
+	padding: 1% 4% 1% 4%;
+}
+/*sombras*/
+#contenedor-redes {
+	-webkit-box-shadow: 8px 8px 4px 0px #3B2F63;
+	-moz-box-shadow: 8px 8px 4px 0px #3B2F63;
+	box-shadow: 8px 8px 4px 0px #3B2F63;
+}
+
+/*posicionamiento fijo en la imagenes de redes*/
+#contenedor-redes {
+	text-align: center;
+	position: fixed;
+	right: 15px;
+	bottom: 40px;
+	width: 50px;
+	background-color: #C7C0DE;
+	opacity: 0.7;
+	padding: 1%;
+	border-radius: 0.5em;
+}

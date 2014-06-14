@@ -1,0 +1,52 @@
+body {
+	font-size: 18px;
+}
+
+#titulo {
+	text-align: center;
+	padding: 4%;
+}
+
+#menu ul {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+#titulo h1 {
+	margin: 0px;
+}
+
+#menu ul li {
+	padding: 2%;
+	border: solid 2px #C7C0DE;
+}
+
+#bienvenida {
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0% 15% 0% 15%;
+	color:#FFFFFF;
+}
+
+footer{
+	text-align: center;
+}
+
+#siguenos p, #suscribete p, #powered p{
+	margin-top: 0px;
+}
+
+#siguenos, #suscribete, #powered{
+	padding: 5%;
+}
+
+#suscribete{
+	border-top: solid 2px #C7C0DE;
+	border-bottom: solid 2px #C7C0DE;
+}
+
+#powered ul{
+	padding-left: 0px;
+	list-style:none;
+}
